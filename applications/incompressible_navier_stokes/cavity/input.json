@@ -19,6 +19,6 @@
     "Output": {
         "OutputDirectory": "output/",
         "OutputName": "cavity",
-        "WriteOutput": "false"
+        "WriteOutput": "true"
     }
 }

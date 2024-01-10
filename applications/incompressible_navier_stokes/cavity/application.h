@@ -108,7 +108,7 @@ private:
 
     // NUMERICAL PARAMETERS
     this->param.implement_block_diagonal_preconditioner_matrix_free = false;
-    this->param.use_cell_based_face_loops                           = false;
+    this->param.use_cell_based_face_loops                           = true;
     this->param.solver_data_block_diagonal = SolverData(1000, 1.e-12, 1.e-2, 1000);
     this->param.quad_rule_linearization    = QuadratureRuleLinearization::Overintegration32k;
 
